@@ -1,6 +1,6 @@
-# JavaScript Client/Server Boilerplate
+# Moshi Moshi
 
-A JavaScript client/server boilerplate project to reduce the time it takes to start a new project.
+Talk with strangers around the world in real-time.
 
 ## License
 
