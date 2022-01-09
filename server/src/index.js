@@ -6,7 +6,7 @@ const app = express();
 if (process.env.PRODUCTION) {
   app
     .use(express.static(path.join(__dirname, '../../client/public')))
-    .get('*', (_req, res) => res.sendFile(path.join(__dirname, '../../client/public/index.html')))
+    .get('*', (_req, res) => res.sendFile(path.join(__dirname, '../../client/public/index.html')));
 }
 
 app.listen(3000, () =>

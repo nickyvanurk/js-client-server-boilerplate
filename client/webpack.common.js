@@ -27,7 +27,7 @@ module.exports = {
       cleanOnceBeforeBuildPatterns: ['**/*', '!models', '!models/*.*', '!textures', '!textures/*.*']
     }),
     new HtmlWebpackPlugin({
-      title: 'Knights and Wizards',
+      title: 'Multiplayer Game',
       template: path.resolve(__dirname, 'src/index.html')
     }),
     new Dotenv()

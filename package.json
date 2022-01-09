@@ -1,10 +1,9 @@
 {
-  "name": "knights-and-wizards",
+  "name": "my-game",
   "version": "1.0.0",
-  "description": "3D multiplayer browser rpg deathmatch.",
+  "description": "My multiplayer game.",
   "scripts": {
-    "postinstall": "npm run client:build",
-    "start": "PRODUCTION=true npm run server:start",
+    "start": "npm run client:build && PRODUCTION=true npm run server:start",
     "client:build": "webpack --config client/webpack.prod.js",
     "server:start": "babel-node server/src/index.js",
     "client:start:dev": "webpack serve --config client/webpack.dev.js",
@@ -34,7 +33,7 @@
     "style-loader": "^3.0.0",
     "webpack": "^5.40.0",
     "webpack-cli": "^4.7.2",
-    "webpack-dev-server": "^3.11.2",
+    "webpack-dev-server": "^4.7.2",
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
